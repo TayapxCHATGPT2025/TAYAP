@@ -72,7 +72,7 @@ jobs:
       - name: Maintain Connection
         run: |
           Write-Host "`n=== RDP ACCESS ==="
-          Write-Host "Address: $env:TAILSCALE_IP"
+          Write-Host "Address: $env:100.119.11.74"
           Write-Host "Username: TOOLBOXLAP"
           Write-Host "Password: admin@123"
           Write-Host "==================`n"
